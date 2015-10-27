@@ -13,4 +13,4 @@ import Model
 
 draw :: Float -> Float -> World -> Picture
 draw horizontalResolution verticalResolution world@(World{..})
-    = error "implement View.draw!"
+    = blank
